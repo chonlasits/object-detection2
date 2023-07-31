@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Result page</title>
+    <style>
+
+    </style>
+</head>
+
+<body>
+    <h2 align="center"> Result of Detection!! </h2><br>
+    <div align="center">
+        <img src="{{image}}" alt="" width="500px" height="500">
+    </div><br><br><hr>
+    <h2 align="center"> Jsonformat </h2><hr>
+    <form action="/jsonform" method="post" enctype="multipart/form-data">
+        <div align="center">
+            <input type='file' name="image2" id="">
+            <input type="submit" value="Send" style="color: white; background-color: green;">
+        </div>
+    </form>
+        
+</body>
+</html>
